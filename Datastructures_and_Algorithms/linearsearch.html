@@ -1,0 +1,26 @@
+
+<script>
+// Edit your script here
+let array = [55,22, 105,33, 11, 6, 2,7];
+let returnedPosition = -1;
+let search = 6;
+
+
+for(i=0; i < array.length-1; i++){
+ if ( array[i] === search ) {
+	returnedPosition = i;
+ 	break;
+ }
+}
+
+    
+ if (returnedPosition === -1) {
+ 	console.log("Number not found");
+	//return returnedPosition;
+} else {
+	console.log("The number " + search + " is at position: ", returnedPosition);
+	//return returnedPosition;
+}
+
+</script>
+<!-- edit your html here -->
